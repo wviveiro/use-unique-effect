@@ -4,7 +4,7 @@ Function based on React hook **useEffect** but without dependencies, which is ru
 
 ```jsx
 import React, {useState} from 'react';
-import useUniqueEffect from './lib';
+import useUniqueEffect from 'use-unique-effect';
 
 function Playground() {
   const [a, setA] = useState('a');
